@@ -15,14 +15,16 @@ const int SA = 480 ;
 
 
 int notes[] = {   
-  sa, sa , re , sa, sa, re ,
-  sa , sa , re , re, ga,ga, ma, ma    
+  sa , sa , re , sa, sa , re , sa ,
+  re , sa , sa , re, re , ga , ga ,
+  ma , ma
    
 };
 
 int duration[] = {        
 1000 ,1000 ,1000 ,1000 ,1000 ,1000 ,1000 ,
-1000 ,1000 ,1000 ,1000 ,1000 ,1000 ,1000  
+1000 ,1000 ,1000 ,1000 ,1000 ,1000 ,1000 ,
+1000 ,1000 
 };
 
 void setup() {
